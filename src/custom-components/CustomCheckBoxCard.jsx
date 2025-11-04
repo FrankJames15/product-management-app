@@ -10,7 +10,7 @@ const CustomCheckBoxCard = (props) => {
     return (
         <CheckboxCard.Root
             maxW="150px"
-            checked={isChecked}
+            isChecked={isChecked}
             onCheckedChange={onChange}
             cursor="pointer"
             {...rest}
